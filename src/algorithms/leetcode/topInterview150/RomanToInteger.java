@@ -35,7 +35,7 @@ public class RomanToInteger {
         System.out.println(romanToInt(s));
     }
 
-    private static int romanToInt(String s) {
+    public static int romanToInt(String s) {
         Map<Character, Integer> romanMap = new HashMap<>();
         romanMap.put('I', 1);
         romanMap.put('V', 5);
