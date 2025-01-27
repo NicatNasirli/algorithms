@@ -3,6 +3,8 @@ package algorithms.sorting;
 import java.util.Arrays;
 
 public class BubbleSort {
+
+    //Time complexity of O(n^2)
     public static void main(String[] args) {
         int[] array = {6, 1, 2, 7, 9, 43, 2, 10};
         System.out.println(Arrays.toString(bubbleSort(array)));
